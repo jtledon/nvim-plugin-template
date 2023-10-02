@@ -78,3 +78,12 @@ end
 
 return M
 ```
+
+If you are creating a local variable that you do not guarantee the state of and you might update later on, resulting in a breaking change, it is convention to prefix them with an underscore; these are considered variables that are private to the plugin.
+```lua
+M = {}
+
+M._private = 1
+
+return M
+```
