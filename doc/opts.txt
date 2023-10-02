@@ -1,0 +1,4 @@
+This file should contain information on the plugin setup, configuration, defaults, etc
+
+This line below is require for neovim to register that it is a doc file
+vim:tw=78:ts=8:ft=help:norl:
